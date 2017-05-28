@@ -35,12 +35,19 @@
     }
 }
 
-@media (max-width: 480px){
+@media all and  (max-width: 480px){
     .col{
         width: 100%;
     }
 }
 
+/* łukasz używa tylko @media (), wiec to w zupełnoości wystarcza*/
+
+@media print {
+    .col {
+        border: 3px solid red;
+    }
+}
 
 
 
